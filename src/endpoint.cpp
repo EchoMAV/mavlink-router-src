@@ -676,7 +676,7 @@ UartEndpoint::UartEndpoint(std::string name)
 UartEndpoint::~UartEndpoint()
 {
     if (fd > 0) {
-        reset_uart(fd);
+        //reset_uart(fd);
     }
 }
 
